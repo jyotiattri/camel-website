@@ -380,8 +380,13 @@ body {
   max-height: 80vh;
 }
 
-.result_header {
+#search_results .result_header {
   font-weight: 600;
+  color: var(--color-asf-dark-blue);
+}
+
+#search_results .result_header:hover {
+  color: var(--color-asf-moderate-blue);
 }
 
 .result_summary {
